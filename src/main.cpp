@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
     
     hitable *list[2];
     list[0] = new sphere(vec3(0, 0, -1), 0.5);
-    list[2] = new sphere(vec3(0, -100.5, -1), 100);
+    list[1] = new sphere(vec3(0, -100.5, -1), 100);
     hitable *world = new hitable_list(list, 2);
     
     for (int j = ny - 1 ; j >= 0 ; j--) {

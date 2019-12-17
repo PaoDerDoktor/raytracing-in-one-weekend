@@ -2,7 +2,7 @@
 #define SPHEREH
 
 #include "hitable.h"
-#include <math.h>
+#include <cmath>
 
 class sphere : public hitable {
 public:
